@@ -7,7 +7,7 @@ from six import __init__
 
 def loc2bbox(src_bbox, loc):
     """Decode bounding boxes from bounding box offsets and scales.
-
+    //一个框的位置从网络预测出值之后最后框的位置坐标。
     Given bounding box offsets and scales computed by
     :meth:`bbox2loc`, this function decodes the representation to
     coordinates in 2D image coordinates.
