@@ -79,7 +79,7 @@ def loc2bbox(src_bbox, loc):
 
 def bbox2loc(src_bbox, dst_bbox):
     """Encodes the source and the destination bounding boxes to "loc".
-
+    //框的位置从一个变化为另一个的时候，我们预测的参数t_x,t_y,t_w,t_h的变化
     Given bounding boxes, this function computes offsets and scales
     to match the source bounding boxes to the target bounding boxes.
     Mathematcially, given a bounding box whose center is
