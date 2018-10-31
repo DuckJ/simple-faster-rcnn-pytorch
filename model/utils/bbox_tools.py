@@ -144,7 +144,7 @@ def bbox2loc(src_bbox, dst_bbox):
 
 def bbox_iou(bbox_a, bbox_b):
     """Calculate the Intersection of Unions (IoUs) between bounding boxes.
-
+    //计算bboxs之间的IOU。生成的结果中表示的是每个bbox对另一边的每个bbox的iou的值。
     IoU is calculated as a ratio of area of the intersection
     and area of the union.
 
